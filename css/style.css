@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
 }
 
 
 /*start header*/
 header{
-    margin:12px;
+    margin-bottom:12px;
+    background-color: rgba(153, 255, 102, 50%);
 }
 
 header>h1{
@@ -25,6 +25,9 @@ main{
     width: 1150px;
     margin: 30px auto;
     margin-bottom: 25px;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 40px;
 }
 
 main>button{
