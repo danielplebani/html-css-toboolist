@@ -40,7 +40,8 @@ main>section{
 }
 
 .title_section{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Agdasima', sans-serif;
+    font-size: x-large;
     display: inline-block;
 }
 
@@ -81,7 +82,7 @@ main>section{
 /*start footer*/
 footer{
     color: rgb(9, 78, 9);
-    padding: 10px;
+    padding: 7px;
     background-color: rgba(153, 255, 102, 50%);
     font-family: 'Roboto', sans-serif;
     font-style: oblique;
