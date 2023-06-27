@@ -49,7 +49,18 @@ main>section{
     padding: 4px;
     border: none;
     border-radius: 10px;
-    background-color: rgb(18, 146, 103);
     color: white;
     font-size: x-small;
+}
+
+.blue{
+    background-color: rgb(18, 46, 146);
+}
+
+.orange{
+    background-color: rgb(209, 103, 33);
+}
+
+.pink{
+    background-color: palevioletred;
 }
