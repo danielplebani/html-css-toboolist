@@ -2,18 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: #f6f8f9;
+}
 
 /*start header*/
 header{
     margin-bottom:12px;
-    background-color: rgba(153, 255, 102, 50%);
+    background-color: #ffffff;
 }
 
 header>h1{
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
     font-size: 35px;
     vertical-align: 25%;
 }
@@ -25,35 +28,76 @@ main{
     width: 1150px;
     margin: 30px auto;
     margin-bottom: 25px;
-    background-color: antiquewhite;
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 40px;
 }
 
-main>button{
+main>.button{
+    border-bottom: solid rgba(128, 128, 128, 0.17) 1px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.task, .section{
     padding: 7px;
-    color: aliceblue;
-    background-color: rgb(0, 87, 127);
-    border:none;
     border-radius: 5px;
+    color: white;
+    font-size: small;
+}
+
+.task{
+    background-color: #14aaf5;
+    border:none;
+}
+
+.section{
+    background-color:#ffffff ;
+    color: rgba(128, 128, 128, 0.43);
+    border: rgba(128, 128, 128, 0.43) solid 1px;
+
 }
 
 main>section{
     margin-top: 20px;
 }
 
+.tick{
+    color: rgb(85, 223, 85);
+    border: solid rgb(85, 223, 85) 1px;
+    padding: 5px;
+    font-size: x-small;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
+.x{
+    color: red;
+    border: solid red 1px;
+    padding: 5px;
+    font-size: x-small;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
 .title_section{
-    font-family: 'Agdasima', sans-serif;
-    font-size: x-large;
+    font-size: large;
     display: inline-block;
+}
+
+.title_section, .arrow{
+    color: #434851;
 }
 
 .different_option{
     padding: 10px;
+    color: #434851;
 }
 
 .label{
-    padding: 4px;
+    padding:6px 10px;
     border: none;
     border-radius: 10px;
     color: white;
@@ -61,34 +105,31 @@ main>section{
 }
 
 .blue{
-    background-color: rgb(18, 46, 146);
+    background-color: #09a9ed;
 }
 
 .orange{
-    background-color: rgb(209, 103, 33);
+    background-color: #ff9b00;
 }
 
 .pink{
-    background-color: palevioletred;
+    background-color: #ab5de6;
 }
 
 .green{
-    background-color: green;
+    background-color: #2cc6ab;
 }
 
-.red{
-    background-color: red;
+.green2{
+    background-color: #a3d116;
 }
+
+.fucsia {
+    background-color: #ec4a9d;
+}
+
 /*finish main*/
 
 
-/*start footer*/
-footer{
-    color: rgb(9, 78, 9);
-    padding: 7px;
-    background-color: rgba(153, 255, 102, 50%);
-    font-family: 'Roboto', sans-serif;
-    font-style: oblique;
-}
-/*finish footer*/
+
 
